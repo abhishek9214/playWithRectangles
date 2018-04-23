@@ -1,4 +1,5 @@
-Technologies Used : HTML5, CSS3, Javascript
+Link : https://abhishek9214.github.io/playWithRectangles/
+<br>Technologies Used : HTML5, CSS3, Javascript
 
 Features :<br><ul>
     <li>Draw rectangles by just clicking & dragging the mouse on canvas</li>
