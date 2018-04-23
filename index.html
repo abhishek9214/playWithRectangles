@@ -1,20 +1,108 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>paintRectangles</title>
+    <title>Abhishek</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400|Lato:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body onLoad='init()'>
     <header>
-        <h1>Play with Rectangles - Paint App</h1>
+        <nav class="sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="d-flex align-items-center">
+                            <a href="#">
+                                <img class="logo" src="images/header-logoImg.jpg" />
+                            </a>
+                            <ul class="nav-items-list">
+                                <li>
+                                    <a class="navigation-items" href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a class="navigation-items" href="#portfolio">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a class="navigation-items" href="#">Experience</a>
+                                </li>
+                                <li>
+                                    <a class="navigation-items" href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a class="navigation-items" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="social-container">
+                            <div class="social-connect">
+                                <div class="social-connect-links">
+                                    <a href="mailto:abhishek.kumar9214@gmail.com" target="_blank">
+                                        <i class="fas fa-envelope-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-container">
+                            <div class="social-connect">
+                                <div class="social-connect-links">
+                                    <a href="https://www.linkedin.com/in/AbhishekKumar9214/" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-container">
+                            <div class="social-connect">
+                                <div class="social-connect-links">
+                                    <a href="https://www.instagram.com/aeiouisvowel/" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-container">
+                            <div class="social-connect">
+                                <div class="social-connect-links">
+                                    <a href="https://github.com/abhishek9214" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
-    <section>
-            <canvas id="canvas" width="800" height="400"></canvas>
-            <button id="clear" class="btn" type="button" value="clear">clear</button>
+
+    <section class="canvas-board">
+        <h1>Play with Rectangles - Paint App</h1>
+        <canvas id="canvas" width="800" height="400"></canvas>
+        <button id="clear" class="btn" type="button" value="clear">clear</button>
     </section>
+
+    <footer>
+        <blockquote class="footer-quote">La vie est belle</blockquote>
+        <div class="footer-cog">
+            <i class="fas fa-cog fa-spin fa-1x"></i>
+        </div>
+        <div class="copyright">
+            <i>Copyright &copy;
+                <a href="#">Abhishek Kumar</a>
+            </i>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
